@@ -15,7 +15,7 @@ def familia(request):
     familia3.save()
 
     contexto = {
-        'familia': familia1,
+        'familia1': familia1,
         'familia2': familia2,
         'familia3': familia3,
     }
